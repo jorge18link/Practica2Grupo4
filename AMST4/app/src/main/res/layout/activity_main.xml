@@ -19,4 +19,18 @@
         android:layout_weight="1"
         android:text="Jorge García" />
 
+    <Button
+        android:id="@+id/btn_mapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="irMapa"
+        android:text="Ir al mapa" />
+
+    <Button
+        android:id="@+id/btnYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="irVideoYoutube"
+        android:text="ir a Video de Youtube " />
+
 </LinearLayout>
