@@ -32,5 +32,14 @@
         android:layout_height="wrap_content"
         android:onClick="irVideoYoutube"
         android:text="ir a Video de Youtube " />
+    <Button
+        android:id="@+id/btnGrafica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="grafica"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="Grafica" />
 
 </LinearLayout>

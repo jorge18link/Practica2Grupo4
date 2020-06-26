@@ -22,4 +22,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,youtubeActivity.class);
         startActivity(intent);
     }
+    public void grafica(View view) {
+        Intent intent = new Intent(this, mostrarGrafica.class);
+        startActivity(intent);
+    }
 }
